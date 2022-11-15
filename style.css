@@ -10,9 +10,6 @@ body {
 /* ---------------------------------------------------- */
 
 
-	
-
-
 .kontejner1 h1 {
 	text-align: center;
 }
@@ -21,126 +18,46 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 13%;
-
-	
-
 }
 
-.kontejnery {
-
-}
-/* Jarmila kontejner */
-
-.Jarmilakontejner {
+.kontejner {
 	display: flex;
 	flex-direction: column;
 	border: 1px solid rgb(194, 188, 188);
 	border-radius: 13px;
-	margin-bottom: 20px;
+	padding: 0;
+	margin: 0;
 	box-shadow: 1px 1px 3px rgb(155, 222, 248);
+	margin-bottom: 20px;
 }
 
-
-.Jarmilakontejner h2 {
+.kontejner h2 {
 	margin: 0;
 }
 
-
-	
-
-
-
-/* Jarmila kontejner */
-
-/* Klotylda kontejner */
-
-.Klotyldakontejner {
-	border: 1px solid rgb(194, 188, 188);
-	border-radius: 13px;
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 20px;
-	box-shadow: 1px 1px 3px rgb(155, 222, 248);
-}
-
-
-.Klotyldakontejner h2 {
-	
-	margin: 0;
-}
-
-
-
-
-
-/* Klotylda kontejner */
-
-/* Lucie kontejner */
-
-
-.Luciekontejner {
-	border: 1px solid rgb(194, 188, 188);
-	border-radius: 13px;
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 20px;
-	box-shadow: 1px 1px 3px rgb(155, 222, 248);
-}
-
-
-
-.Luciekontejner h2 {
-	
-	margin: 0;
-}
-
-.Luciekontejner p {
-	text-align: center;
-	padding: 10px 30px;
-	padding-top: 0;
-}
-
-
-/* Lucie kontejner */
-
-/* Emílie kontejner */
-
-.Emíliekontejner {
-	border: 1px solid rgb(194, 188, 188);
-	border-radius: 13px;
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 20px;
-	box-shadow: 1px 1px 3px rgb(155, 222, 248);
-
+.foto img {
+	width: 60%;
+	border-radius: 50%;	
 }
 
 .foto {
-		border-radius: 50%;
-		padding: 20px;
-		margin-top: 20px;
-		margin-left: 40px;
-		margin-right: 40px;
-		margin-bottom: 0px;
-		
+	margin-left: 40px;
+	margin-top: 10px;
 }
-
-
-	}
 	
-.Emíliekontejner p {
-		
-		padding: 0px 30px;
-		padding-top: 0;
+.kontejner p {
+	padding: 0px 30px;
+	padding-top: 0;
 }
 
 .texty {
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 10px;
+	
+	padding: 20px;
+	margin: 0px;
 	text-align: center;
+
 }
-/* Klotylda kontejner */
+
 
 
 
@@ -154,97 +71,97 @@ body {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		
-
 	}
 
-
-	.Jarmilakontejner {
+	.kontejner {
 		
 		display: flex;
 		flex-direction: row;
-		flex-basis: 45%;
 		margin-right: 15px;
-	}
-
-	.Klotyldakontejner {
-		display: flex;
-		flex-direction: row;
+		margin-left: 0px;
 		flex-basis: 45%;
+		align-items: center;
 		
 	}
 
-	.Luciekontejner {
-		display: flex;
-		flex-direction: row;
-		flex-basis: 45%;
-		margin-right: 15px;
-
-
-	}
-
-	.Emíliekontejner {
-		display: flex;
-		flex-direction: row;
-		flex-basis: 45%;
-		
-	}
-
-	.texty {
-	
-		text-align: center;
-		padding: 0px;
-		margin: 10px;
-		margin-top: 20px;
-	
-	
-	}
 
 	h2 {
-		text-align: center;
+		text-align: left;
+	}
+
+
+	.foto img {
+	width: 70%;
+	margin-left: 10px;
+	
 	}
 
 	.foto {
-		margin: 0px;
-		padding: 10px;
+	flex: 1 1 35%;
+	margin-left: 20px;
+	margin-top: 0px;
 			
 	}
+
+	.texty {
+		flex: 1 1 75%;
+		margin-top: 20px;
+		padding: 0;
+		text-align: left;
+		
+		
 	}
+
+	.kontejner p {
+		padding: 0;
+	}
+	
+}
 
 	@media  (min-width: 960px) {
 
-		
+	.kontejner1 {
+			margin: 20px;
+		}
+
 	.kontejnery {
 			display: flex;
 			flex-direction: row;
 		}
 		
-	.Klotyldakontejner
-	 {
+	.kontejner
+	
+	{
 		margin-right: 20px;
+		flex: 1 1 60%;
+		
 
 	 }
 
-	 .Jarmilakontejner
-	 {
-		margin-right: 20px;
+	 .foto {
+		flex: 1 1 45%;
+		margin-left: 0;
+		
+		
+		
 	 }
 
-	 .Luciekontejner
-	 {
-		margin-right: 20px;
+	 .texty {
+		flex: 1 1 50%;
 	 }
 
-	.foto {
-		margin-left: 50px;
-		margin-right: 50px;
+	.foto img {
+	margin: 0;
+	width: 60%;
+	margin-left: 50px;
+	margin-top: 20px;
+	
+
 	}
 
 	h2 {
 		text-align: center;
 	}
-	.texty {
-		text-align: center;
 
-	}
+
 }
